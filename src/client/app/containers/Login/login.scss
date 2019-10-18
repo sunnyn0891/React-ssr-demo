@@ -1,0 +1,37 @@
+.login-container {
+    background: url('https://bluehost-cdn.com/media/user/login/_bh/hosting-login.svg') center no-repeat;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+
+    .login-content {
+        .login {
+            position: absolute;
+            left: 50%;
+            top: 20%;
+            transform: translateX(-50%);
+            max-width: 650px;
+            min-width: 600px;
+            font-weight: lighter;
+            margin-bottom: 4em;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 3px;
+            box-shadow: 0 0 12px 0 rgba(172, 172, 172, 0.5), 0 0 18px 0 rgba(178, 178, 178, 0.5);
+            padding: 60px 10px;
+
+            .general-class {
+                display: block;
+                margin-top: 50px;
+                margin-bottom: 50px;
+            }
+
+            .form-container {
+                padding: 0 80px;
+
+                .button-container {
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
